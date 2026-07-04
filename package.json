@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsx watch index.ts",
-    "build": "npx prisma generate && tsc"
+    "build": "prisma generate && prisma db push"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
