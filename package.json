@@ -12,6 +12,7 @@
     "build": "prisma generate && prisma db push"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/node": "^26.1.0",
     "dotenv-cli": "^11.0.0",
